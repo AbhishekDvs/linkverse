@@ -55,26 +55,26 @@ const projects: Project[] = [
     name: "My Portfolio",
     url: "https://abhisdistro.pages.dev/",
     description: "Showcase of my projects and Pastimes",
-    thumbnail: "/abhisdistro.png",
+    thumbnail: "./abhisdistro.png",
   },
   {
     name: "BlunderBot",
     url: "https://blunderbot.pages.dev/",
     description: "Your AI chess bot which roasts you",
-    thumbnail: "/blunderbot.png",
+    thumbnail: "./blunderbot.png",
   },
   {
     name: "Terminal Sandbox",
     url: "https://terminalsandbox.pages.dev/",
     description: "Web-based Debian Linux terminal sandbox",
-    thumbnail: "/abhisdistro.png",
+    thumbnail: "./abhisdistro.png",
   },
 ];
 
 const data: LinksData = {
   name: "Abhishek Dvs",
   bio: "Full-stack dev · Photography · OSINT · Chess",
-  avatar: "/abhisdistro.png",
+  avatar: "./abhisdistro.png",
   links: [
     { name: "GitHub", url: "https://github.com/AbhishekDvs" },
     { name: "LinkedIn", url: "https://linkedin.com/in/allstarabhishek" },
@@ -91,7 +91,7 @@ export default function App() {
       {/* Background */}
       <div className="fixed inset-0 -z-10">
         <img
-          src="/bg.svg"
+          src="./bg.svg"
           alt="Background pattern"
           className="w-full h-full object-cover"
         />
