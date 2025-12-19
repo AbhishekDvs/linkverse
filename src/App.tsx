@@ -1,5 +1,4 @@
 import type { ReactNode } from "react";
-import { motion } from "motion/react";
 import {
   Github,
   Linkedin,
@@ -23,15 +22,15 @@ type LinksData = {
   links: Link[];
 };
 
-const hoverColors: Record<string, string> = {
-  GitHub: "group-hover:text-blue-200",
-  LinkedIn: "group-hover:text-blue-500",
-  "X (Twitter)": "group-hover:text-sky-400",
-  Instagram: "group-hover:text-pink-500",
-  "Dev.to": "group-hover:text-yellow-500",
-  "Chess.com": "group-hover:text-green-600",
-  Default: "group-hover:text-white",
-};
+// const hoverColors: Record<string, string> = {
+//   GitHub: "group-hover:text-blue-200",
+//   LinkedIn: "group-hover:text-blue-500",
+//   "X (Twitter)": "group-hover:text-sky-400",
+//   Instagram: "group-hover:text-pink-500",
+//   "Dev.to": "group-hover:text-yellow-500",
+//   "Chess.com": "group-hover:text-green-600",
+//   Default: "group-hover:text-white",
+// };
 
 const iconMap: Record<string, ReactNode> = {
   GitHub: <Github className="w-6 h-6" />,
