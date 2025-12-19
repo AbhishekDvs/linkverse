@@ -96,7 +96,7 @@ export default function App() {
       {/* Background */}
       <div className="fixed inset-0 -z-10">
         <img
-          src="./bg.svg"
+          src="./bg2.svg"
           alt="background"
           className="w-full h-full object-cover"
         />
