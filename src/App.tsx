@@ -52,9 +52,9 @@ type Project = {
 const projects: Project[] = [
   {
     name: "My Portfolio",
-    url: "https://abhisdistro.pages.dev/",
+    url: "https://abhistack.pages.dev/",
     description: "Showcase of my projects and Pastimes",
-    thumbnail: "./abhisdistro.png",
+    thumbnail: "./abhistack.png",
   },
   {
     name: "Traata",
