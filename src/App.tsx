@@ -73,6 +73,12 @@ const projects: Project[] = [
     url: "https://terminalsandbox.pages.dev/",
     description: "Web-based Debian Linux terminal sandbox",
     thumbnail: "./abhisdistro.png",
+  },
+  {
+    "name": "Igris",
+    "url": "https://agentigris.pages.dev/",
+    "description": "RAG-based conversational AI with modular personalities and personal knowledge base integration",
+    "thumbnail": "./igris.png"
   }
 ];
 
