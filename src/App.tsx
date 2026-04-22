@@ -56,6 +56,12 @@ const projects: Project[] = [
     description: "Showcase of my projects and Pastimes",
     thumbnail: "./abhistack.png",
   },
+   {
+    "name": "Igris",
+    "url": "https://agentigris.pages.dev/",
+    "description": "RAG-based conversational AI with modular personalities and personal knowledge base integration",
+    "thumbnail": "./igris.png"
+  },
   {
     name: "Traata",
     url: "https://traata.pages.dev/",
@@ -74,12 +80,6 @@ const projects: Project[] = [
     description: "Web-based Debian Linux terminal sandbox",
     thumbnail: "./abhisdistro.png",
   },
-  {
-    "name": "Igris",
-    "url": "https://agentigris.pages.dev/",
-    "description": "RAG-based conversational AI with modular personalities and personal knowledge base integration",
-    "thumbnail": "./igris.png"
-  }
 ];
 
 const data: LinksData = {
