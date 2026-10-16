@@ -8,7 +8,7 @@ const destinations = [
   { name: 'Traata', type: 'THE VAULT PLANET', category: 'Privacy & security', url: 'https://traata.pages.dev/', description: 'Your secrets have a safe home. A lightweight password manager built for simplicity and privacy.', x: 76, y: 49, size: 138, color: '#efbd83', style: 'sand', number: '03' },
   { name: 'BlunderBot', type: 'A WORTHY OPPONENT', category: 'AI chess', url: 'https://blunderbot.pages.dev/', description: 'Make your move. An AI chess opponent with a sharp mind and an even sharper sense of humor.', x: 41, y: 73, size: 78, color: '#ed959e', style: 'red', number: '04' },
   { name: 'Terminal Sandbox', type: 'THE EXPERIMENTAL OUTPOST', category: 'Linux playground', url: 'https://terminalsandbox.pages.dev/', description: 'A Debian Linux terminal, right in your browser. A small outpost for big experiments.', x: 81, y: 79, size: 66, color: '#95caa4', style: 'green', number: '05' },
-  { name: 'Mosslight Isle', type: 'THE TRANQUIL WILDERNESS', category: 'Open-world exploration', url: 'https://mosslight-isle.pages.dev/', description: 'A peaceful little world made for wandering. Roam freely, follow your curiosity, and enjoy the quiet magic of simply being somewhere beautiful.', x: 15, y: 78, size: 96, color: '#a9dfa5', style: 'green', number: '06' },
+  { name: 'Mosslight Isle', type: 'THE WANDERING WORLD', category: 'Relaxing exploration', url: 'https://mosslight-isle.pages.dev/', description: 'A quiet island escape where the journey is the point. Wander at your own pace, take in the scenery, and enjoy an open world without a checklist.', x: 16, y: 77, size: 92, color: '#a9dfa5', style: 'moss', number: '06' },
 ]
 const socials = [
   { name: 'GitHub', icon: Github, url: 'https://github.com/AbhishekDvs' },

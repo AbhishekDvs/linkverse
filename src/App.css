@@ -27,3 +27,19 @@
 .nebula-cloud-one{left:-12%;top:15%;width:110%;height:85%}
 .nebula-cloud-two{right:-20%;top:-5%;width:90%;height:80%;transform:rotate(25deg);filter:hue-rotate(90deg);opacity:.2}
 @media(max-width:650px){.ship-body{width:42px;height:52px}.spaceship .ship-svg{width:42px;height:52px}.engine{top:43px;width:4px}.engine-left{left:10px}.engine-right{left:28px}.ship-label{top:73px}.nebula-cloud-one{width:180%;left:-40%;opacity:.24}}
+
+/* Sixth world: Mosslight Isle. All original flight/navigation effects remain intact. */
+.moss{--planet-color:#a9dfa5;--surface:radial-gradient(ellipse at 25% 22%,#d4f7b0 0%,#8ccda1 13%,transparent 31%),radial-gradient(ellipse at 65% 64%,#3c876f 0%,transparent 30%),radial-gradient(ellipse at 25% 72%,#7bb377 0%,transparent 33%),repeating-conic-gradient(from 25deg,#356c53 0deg 20deg,#7da982 23deg 38deg,#285d50 41deg 58deg)}
+.moss .planet-sphere{box-shadow:inset -22px -17px 27px #02110de0,inset 3px 3px 8px #e2ffbe44,0 0 19px #9cde9e30}
+/* Accommodate a sixth navigable planet on narrow screens without switching to cards. */
+@media(max-width:650px){
+  .universe{height:max(100svh,1000px);min-height:1000px}
+  .planet-destination.ocean{top:44%;left:23%}
+  .planet-destination.violet{top:36%;left:62%}
+  .planet-destination.sand{top:54%;left:76%}
+  .planet-destination.red{top:64%;left:27%}
+  .planet-destination.green{top:73%;left:72%}
+  .planet-destination.moss{top:81%;left:23%}
+  .mobile-controls button{min-width:34px;min-height:34px}
+}
+@media(min-width:651px) and (max-width:1000px){.planet-destination.moss{top:75%;left:15%}}
